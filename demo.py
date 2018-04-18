@@ -15,6 +15,10 @@ while True:
 
 #    myBoard.leds[ledNo].toggle()
     myBoard.sleep(1)
+    #    myBoard.leds[ledNo].on()
+    myBoard.sleep(1)
+    #    myBoard.leds[ledNo].off()
+    myBoard.sleep(1)
         
     ledNo = 1 if ledNo == 5 else ledNo+1
     
